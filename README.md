@@ -1,12 +1,8 @@
 # General Assembly Repo
 ----
-Dedicated repo for all General Assembly:
-- Dash exercises
-- Webinar exercises
-- Notes
-- Resources
+Welcome to my repo for General Assembly projects!
 
-[Dash](https://dash.generalassemb.ly/projects) is General Assembly's online learning platform that's free! It's a good starting point for beginners, and if I'm able to do this without knowing HTML, I recommend th as I first started 
+[Dash](https://dash.generalassemb.ly/projects) is General Assembly's FREE online learning platform! This was my first time learning web development, and I thought it was perfect for a beginner. Check out my projects on [GitHub Pages](https://mtdowner.io/general-assembly.io.)
 
 
 PROJECT 1: BUILD A PERSONAL WEBSITE
