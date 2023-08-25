@@ -3,29 +3,37 @@
   padding: 0;
 }
 
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+   font-size: 100%;
+}
+
 body {
   min-height: 100vh;
-  font-size: 100%;
-  overflow-x: hidden;
-  padding: .5rem;
+  border: .5rem solid #000;
 }
 
 header {
-  font-size: 4rem;
-  color: #fff;
   background-color: #000;
 }
-nav {
-  padding: .5rem;
+
+h1 {
+  font-size: 4rem;
+  color: #fff;
+}
+
+nav, ul, header {
+  padding: 1rem;
 }
 
 ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  gap: 1rem 2rem;
-  padding: 1rem;
+  gap: 1rem;
 }
 
 li {
@@ -36,10 +44,20 @@ li {
   font-size: 2rem;
 }
 
-ul + li {
+ul > li {
   color: rebeccapurple;
 }
 
 a {
   text-decoration: none;
+}
+
+li:hover {
+
+  background: linear-gradient(#fff, #222);
+}
+
+a:hover {
+    color: #fff;ation-line: underline;
+  text-decoration-color: white;
 }
