@@ -3,17 +3,22 @@
   padding: 0;
 }
 
-*, *:before, *:after {
-    box-sizing: inherit;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 html {
-   font-size: 100%;
+  font-size: 100%;
 }
 
 body {
+  color: black;
   min-height: 100vh;
-  border: .5rem solid #000;
+  border: 0.5rem solid #000;
+  font-family: gintronic;
+  line-height: 1.1;
 }
 
 header {
@@ -25,7 +30,9 @@ h1 {
   color: #fff;
 }
 
-nav, ul, header {
+nav,
+ul,
+header {
   padding: 1rem;
 }
 
@@ -38,26 +45,23 @@ ul {
 
 li {
   list-style-type: none;
-  border: 5px solid black;
+  border: 0.5rem solid black;
   padding: 1rem;
   width: 100%;
   font-size: 2rem;
 }
 
-ul > li {
-  color: rebeccapurple;
-}
-
 a {
+  color: #8a2be2;
   text-decoration: none;
 }
 
 li:hover {
-
   background: linear-gradient(#fff, #222);
 }
 
 a:hover {
-    color: #fff;ation-line: underline;
+  color: #000;
+  text-decoration-line: underline;
   text-decoration-color: white;
 }
