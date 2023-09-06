@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<title>esha's restaurant</title>
-<script src="/assets/jquery.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Londrina+Shadow" rel="stylesheet" type="text/css">
+<script src="http://dash.ga.co/assets/jquery.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap" rel="stylesheet">
 <style>
 body {
   font-family: helvetica, sans-serif;
@@ -22,7 +23,7 @@ h1 {
   font-family: 'Londrina Shadow', cursive;
   text-align: center;
   font-size: 75px;
-  color: #7223ce;
+  color: #aaaaaa;
   margin: 60px 0 0 0;
 }
 h2 {
@@ -33,9 +34,9 @@ h2 {
 p {
   color: rgba(255,255,255,1);
   background-color: #8a2be2;
-  background-image: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  background-image: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: linear-gradient(bottom, rgba(100,0,200,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(100,0,200,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(100,0,200,1), rgba(0,0,0,.4));
   padding: 10px;
   line-height: 28px;
   text-align: justify;
@@ -99,24 +100,27 @@ small {
 <h2>a New York City eatery</h2>
 <div class="first">
   <p>welsh onion soko <span class="price">$14</span><br />
-  <small>Mustard sierra leone bologi kale chard beet greens black-eyed pea sorrel amaranth garlic tigernut spring onion summer purslane asparagus lentil. </small></p>
+  <small>Mustard sierra leone bologi kale chard beet greens black-eyed pea sorrel amaranth garlic tigernut spring onion summer purslane asparagus lentil.</small>
+  </p>
 </div>
 
 <div class="second">
   <p>pastrami boudin tongue <span class="price">$22</span><br />
-  <small>Tri-tip capicola kielbasa salami brisket chicken rump strip steak drumstick. Meat
-  loaf chuck boudin ribeye pork jowl. Andouille bacon jowl meatloaf pork loin prosciutto bresaola.</small></p>
+  <small>Tri-tip capicola kielbasa salami brisket chicken rump strip steak drumstick. Meatloaf chuck boudin ribeye pork jowl. Andouille bacon jowl meatloaf pork loin prosciutto bresaola.</small>
+  </p>
 </div>
   
 <div class="dessert">
   <p>fruitcake marzipan pudding dragee <span class="price">$8</span><br />
-  <small>Lollipop tart cotton candy jelly-o carrot cake apple pie cupcake. Jelly-o bear claw ice cream candy canes.</small></p>
+  <small>Lollipop tart cotton candy jelly-o carrot cake apple pie cupcake. Jelly-o bear claw ice cream candy canes.</small>
+  </p>
 </div>
 
 <script>
   $('div').on('click', function() {
-      $(this).toggleClass('show-description');
-  });
+    $(this).toggleClass('show-description');
+  });  
 </script>
+
 </body>
 </html>
