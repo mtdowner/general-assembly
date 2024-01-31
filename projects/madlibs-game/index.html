@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="/assets/jquery.js"></script>
+<style>
+</style>
+</head>
+
+<body>
+<div class="prompt"></div>
+<button>Next</button>
+<script>
+var prompts = [
+	'type your name',
+	'type an adjective',
+	'type a noun'
+];
+
+var currentPrompt = 0;
+
+var nextPrompt = function() {
+// put first prompt in all html elements with class prompt
+$('.prompt').html(prompts[currentPrompt]);
+currentPrompt = currentPrompt + 1;   
+}
+
+$('button').click(function() {
+  nextPrompt();
+});
+</script>
+</body>
+</html>
