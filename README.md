@@ -2,7 +2,7 @@
 ----
 Welcome to my repo for General Assembly projects!
 
-[Dash](https://dash.generalassemb.ly/projects) is General Assembly's FREE online learning platform! This was my first time learning web development, and I thought it was perfect for a beginner. Check out my projects on [GitHub Pages](https://mtdowner.github.io/general-assembly/)
+[Dash](https://dash.generalassemb.ly/projects) is General Assembly's FREE online learning platform! This was my first time learning web development, and I thought it was perfect for a beginner. Check out my projects [here](https://mtdowner.github.io/general-assembly/).
 
 <details>
 <summary>PROJECT 1: BUILD A PERSONAL WEBSITE</summary>
