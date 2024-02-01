@@ -1,4 +1,4 @@
-# <span style="color:blueviolet;">General Assembly Repo</span>
+# General Assembly Dash
 ----
 Welcome to my repo for General Assembly projects!
 
